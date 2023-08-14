@@ -33,6 +33,7 @@ html:not(.light) .ph-moon {
   top: 3.2rem;
   font-size: 3.2rem;
   line-height: 0;
+  color: var(--text-color);
 }
 
 /* Screen Reader (Leitor de tela) */
@@ -102,6 +103,6 @@ button {
 .music-on .ph-speaker-none,
 html:not(.running) .ph-pause-circle,
 html:not(.running) .ph-stop-circle,
-html:not(.running) .ph-speaker-high {
+html:not(.music-on) .ph-speaker-high {
   display: none;
 }
