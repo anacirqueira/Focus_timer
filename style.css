@@ -11,6 +11,7 @@
   --hue: 194;
   --bg-color:hsl(var(--hue), 5%, 7%);
   --text-color:hsl(var(--hue), 40%, 98%);
+  --primary-color: hsl(var(--hue), 100%, 63%);
   --controls-bg-color:hsl(var(--hue), 0%, 14%);
   --button-secondary:hsl(var(--hue), 40%, 98%);
 
@@ -18,8 +19,9 @@
 }
 
 html.light {
-  --bg-color:hsl(var(--hue), 40%, 98%);
   --text-color:hsl(var(--hue), 5%, 7%);
+  --bg-color:hsl(var(--hue), 40%, 98%);
+  --controls-bg-color:hsl(var(--hue), 0%, 14%);
 }
 
 html.light .ph-sun,
@@ -57,7 +59,6 @@ body {
   display: grid;
   height: 100vh;
   place-content: center;
-
 }
 
 #app {
